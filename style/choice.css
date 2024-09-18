@@ -41,21 +41,12 @@
     margin-top: 70px;
     gap:20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 10px;
-}
-.choice .choiceCont .choiceSec .choice-left{
-    width:50%;
-    height:100%;
-}
-.choice .choiceCont .choiceSec .choice-left img{
-    vertical-align: middle;
-    max-width: 100%;
-    display: inline-block;
 }
 
 .choice .choiceCont .choiceSec .choice-right{
-    width:50%;
+    width:70%;
     height:100%;
     padding: 0 10px;
 }
