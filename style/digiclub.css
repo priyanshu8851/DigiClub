@@ -1,0 +1,131 @@
+.digiclub{
+    width:100%;
+    min-height: 600px;
+    height:100%;
+    margin-top: 100px;
+}
+.digiContainer{
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+.digiclub .digiContainer .digi-head{
+    text-align: center;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.digiclub .digiContainer .digi-head span{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 300;
+}
+.digiclub .digiContainer .digi-head h2{
+    font-size: 69px;
+    line-height: 69px;
+    font-weight: 700;
+}
+.digiclub .digiContainer .digi-head p{
+    font-size: 29px;
+    line-height: 29px;
+    font-weight: 350;
+    color: #7b7b7b;
+}
+.digiclub .digiContainer .digi-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    margin-top: 100px;
+}
+
+.digiclub .digiContainer .digi-cards .digi-card{
+    max-width: 450px;
+    height: 100%;
+    width:100%;
+    min-height: 500px;
+    backdrop-filter: blur(9px);
+    background-color: #ffffff12;
+    border: 1px solid #ffffff29;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.digiclub .digiContainer .digi-cards .digi-card2{
+    max-width: 450px;
+    height: 100%;
+    width:100%;
+    min-height: 500px;
+    background-color: none;
+    border: 1px solid #ffffff29;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.digiclub .digiContainer .digi-cards .digi-card .d-c-head{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.digiclub .digiContainer .digi-cards .digi-card2 .d-c-head{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.digiclub .digiContainer .digi-cards .digi-card ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 300px;
+    gap:10px;
+    margin-top: 50px;
+    list-style-type: none;
+    padding: 0  30px;
+}
+.digiclub .digiContainer .digi-cards .digi-card2 ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 300px;
+    gap:10px;
+    margin-top: 50px;
+    list-style-type: none;
+    padding: 0  30px;
+}
+
+.digiclub .digiContainer .digi-cards .digi-card ul li{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    text-align: left;
+}
+.digiclub .digiContainer .digi-cards .digi-card2 ul li{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    text-align: left;
+}
+.digiclub .digiContainer .digi-cards .digi-card ul li img{
+    height:24px
+}
+.digiclub .digiContainer .digi-cards .digi-card ul li span{
+    font-size: 16px;
+}
+.digiclub .digiContainer .digi-cards .digi-card2 ul li img{
+    height:24px
+}
+.digiclub .digiContainer .digi-cards .digi-card2 ul li span{
+    /* color: #7b7b7b; */
+    font-size: 16px;
+}

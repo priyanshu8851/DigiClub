@@ -1,0 +1,104 @@
+.choice{
+    width:100%;
+    min-height:500px;
+    height: 100%;
+    margin-top:100px;
+}
+.choiceCont{
+    width: 100%;
+    padding: 0 10px;
+    /* background-color: aliceblue; */
+    height: 100%;
+}
+.choice .choiceCont .choice-head{
+    width:100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.choice .choiceCont .choice-head span{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 300;
+}
+.choice .choiceCont .choice-head h2{
+    font-size: 69px;
+    line-height: 69px;
+    font-weight: 700;
+}
+.choice .choiceCont .choice-head p{
+    font-size: 29px;
+    line-height: 29px;
+    font-weight: 350;
+    color: #7b7b7b;
+}
+
+.choice .choiceCont .choiceSec{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    gap:20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.choice .choiceCont .choiceSec .choice-left{
+    width:50%;
+    height:100%;
+}
+.choice .choiceCont .choiceSec .choice-left img{
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.choice .choiceCont .choiceSec .choice-right{
+    width:50%;
+    height:100%;
+    padding: 0 10px;
+}
+.choice .choiceCont .choiceSec .choice-right ul{
+    list-style-type: none;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap:16px;
+    justify-content: center;
+    align-items: center;
+}
+.choice .choiceCont .choiceSec .choice-right ul li{
+    display: flex;
+    flex-direction: column;
+}
+.choice .choiceCont .choiceSec .choice-right ul li .c-info-head span{
+    font-size: 28px;
+    line-height: 28px;
+    padding-left: 5px;
+}
+.choice .choiceCont .choiceSec .choice-right ul li p{
+    color: #7d8490;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.choice .choiceCont .choiceSec .choice-right ul li .c-info-head img{
+    height:30px;
+    width:30px
+}
+@media screen and (max-width:600px) {
+    .choice .choiceCont .choiceSec{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .choice .choiceCont .choiceSec .choice-left{
+        width:100%;
+    }
+    .choice .choiceCont .choiceSec .choice-right{
+        width:100%;
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,70 @@
+.founder{
+    width:100%;
+    min-height:600px;
+    height:100%;
+    margin-top: 100px;
+}
+.founder .founderCont{
+    width:100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+}
+.founder .founderCont .fc-left{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 10px;
+    gap:14px
+}
+.founder .founderCont .fc-left span{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 300;
+}
+.founder .founderCont .fc-left h2{
+    font-size: 69px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.founder .founderCont .fc-left h3{
+    color: #ffffff75;
+    margin-top: 10px;
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.founder .founderCont .fc-left p{
+    color: #ffffff75;
+    line-height: 2rem;
+}
+.founder .founderCont .fc-right{
+    padding: 0 10px;
+    width:50%;
+    display: block;
+    height: 100%;
+}
+.founder .founderCont .fc-right img{
+    width:100%;
+    border-radius: 10px;
+    height: 60vh;
+    background-position: center;
+    object-fit: cover;
+}
+@media screen and (max-width:600px) {
+    .founder .founderCont{
+        flex-direction: column;
+        gap:20px
+    }
+.founder .founderCont .fc-left{
+    width:100%;
+}
+.founder .founderCont .fc-right{
+    width:100%;
+}
+}

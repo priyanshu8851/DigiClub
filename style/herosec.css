@@ -1,0 +1,180 @@
+.herosection{
+    width:100%;
+    min-height: 480px;
+    height: 100%;
+}
+.herocontainer{
+    width:100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+    text-align: center;
+
+}
+.herocontainer span{
+    font-size: 22px;
+    font-weight: 550;
+    color:#609DF4;
+    text-transform: uppercase;
+}
+.herocontainer h2{
+    font-size: 58px;
+    line-height: 58px;
+}
+.herocontainer h1{
+    font-size: 78px;
+    line-height: 78px;
+}
+.herocontainer p{
+    color: grey;
+    font-size: 18px;
+}
+.herocontainer ul{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    padding-top: 16px;
+}
+.herocontainer ul li:last-child{
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    padding:8px 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #17212e53;
+    align-items: center;
+    font-weight: 600;
+}
+.herocontainer ul li:first-child{
+    background-color: #ff4141;
+    border: 2px solid #ff4141;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    padding: 16px 40px;
+}
+.herocontainer ul li:hover{
+cursor: pointer;
+}
+@media screen and (max-width:985px) {
+    .herocontainer span{
+        font-size: 20px;
+    }
+    .herocontainer h2{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .herocontainer h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .herocontainer p{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: grey;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width:550px) {
+    .herocontainer{gap:8px}
+    .herocontainer span{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .herocontainer h2{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .herocontainer h1{
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .herocontainer p{
+        width: 80%;
+        text-align: center;
+        color: grey;
+        line-height: 22px;
+        font-size: 16px;
+    }
+    .herocontainer ul{
+        display: flex;
+        flex-direction: column;
+        gap:16px;
+        padding-top: 16px;
+        width:80%;
+    }
+    .herocontainer ul li:last-child{
+        border: 1px solid rgb(95, 95, 95);
+        border-radius: 10px;
+        width:100%;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        background-color: #17212e53;
+        align-items: center;
+        font-weight: 600;
+    }
+    .herocontainer ul li:first-child{
+        background-color: #ff4141;
+        border: 2px solid #ff4141;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 14px;
+        padding: 16px 40px;
+    }
+}
+.addSec{
+    width:100%;
+    height:110px;
+    margin-top: 40px;
+}
+.addSec .addContainer{
+display: flex;
+flex-wrap: wrap;
+gap:26px;
+padding: 0 10px;
+justify-content: center;
+}
+.addSec .addContainer img{
+    height:90px
+}
+@media screen and (max-width:950px) {
+    .addSec .addContainer img{
+        height:80px
+    } 
+}
+@media screen and (max-width:850px) {
+    .addSec .addContainer img{
+        height:70px
+    } 
+}
+@media screen and (max-width:750px) {
+    .addSec .addContainer img{
+        height:60px
+    } 
+}
+@media screen and (max-width:500px) {
+    .addSec .addContainer img{
+        height:40px
+    } 
+    .addSec{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .addSec .addContainer img{
+        height:30px
+    } 
+}

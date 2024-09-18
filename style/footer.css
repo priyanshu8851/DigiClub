@@ -1,0 +1,101 @@
+footer{
+    width:100%;
+    min-height: 250px;
+    height:100%;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+}
+.footerContainer{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    width:100%;
+    padding: 0 10px;
+    height:100%;
+}
+.footerContainer .footer-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+.footerContainer .footer-top img{
+    height:100px
+}
+.footerContainer .footer-top a{
+    text-decoration: none;
+    background-color: #ff4141;
+    border: 2px solid #ff4141;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    padding: 16px 40px;
+}
+.footerContainer .footer-bottom{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerContainer .footer-bottom .f-card{
+    width:250px;
+}
+.footerContainer .footer-bottom .f-card ul{
+    list-style-type: none;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: start;
+}
+
+.footerContainer .footer-bottom .f-card ul li:first-child{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+}
+.footerContainer .footer-bottom .f-card ul li{
+    color:#5c5c5c;
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: underline;
+}
+.footerContainer .footer-bottom .f-card ul li:hover{
+    cursor:pointer;
+}
+.footer-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    max-width: 1100px;
+    padding: 0 10px;
+    width: 100%;
+    font-size: 16px;
+}
+.footer-contact a{
+    background-color: #ffffff21;
+    border: 1px solid #ffffff1f;
+    border-radius: 6px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width:40px;
+    font-size: 24px;
+}
+@media screen and (max-width:700px) {
+    .hide{
+        display: none;
+    }
+}
