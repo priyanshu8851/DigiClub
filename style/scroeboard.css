@@ -34,7 +34,7 @@
 
 .scores{
     max-width:550px;
-    width:100%;
+    width:90%;
     display: flex;
     gap:30px;
     flex-direction: row;
@@ -104,4 +104,33 @@
         font-size: 14px;
         line-height: 18px;
     }
+}
+@media screen and (max-width:550px) {
+    .scoreboard{
+        width:90%;
+        min-height: 500px;
+        height:100%
+    }
+    .scores{
+        max-width:90%;
+        display: flex;
+        gap:30px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: aliceblue; */
+    }
+    .scores .score h2{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .scores .score span{
+        font-size:14px;
+        margin-top:10px;
+        color:#5c5c5c;
+        line-height: 14px;
+        font-weight: 550;
+    }
+    
 }
